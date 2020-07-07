@@ -11,7 +11,7 @@ group :assets do
 end
 
 gem 'factory_girl', group: [:test]
-gem 'jquery-rails', '2.1.4'
+gem 'jquery-rails', '3.1.3'
 gem "thin"
 #gem "rspec-rails", ">= 2.11.0", group: [:development, :test]
 gem "capybara", ">= 1.1.2", group: :test
