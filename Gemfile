@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-gem 'rails', '3.2.11'
+gem 'rails', '4.0.0'
 gem 'sqlite3'
 
 gem 'rdiscount'
@@ -28,9 +28,9 @@ gem "rolify", ">= 3.1.0"
 gem 'libv8', '~> 3.11.8'
 gem "therubyracer", group: :assets, platform: :ruby
 
-gem "rails-settings-cached"
+gem "rails-settings-cached", ">= 0.2.4"
 
-gem 'rails-footnotes', '>= 3.7.5.rc4', group: :development
+gem 'rails-footnotes', '>= 3.7.7', group: :development
 gem 'kaminari'
 
 gem 'arachni-rpc-em', git: 'git://github.com/Arachni/arachni-rpc-em.git'
