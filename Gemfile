@@ -14,7 +14,7 @@ gem 'factory_girl', group: [:test]
 gem 'jquery-rails', '2.1.4'
 gem "thin"
 #gem "rspec-rails", ">= 2.11.0", group: [:development, :test]
-gem "capybara", ">= 1.1.2", group: :test
+gem "capybara", ">= 2.0.2", group: :test
 gem "cucumber-rails", ">= 1.3.0", group: :test, require: false
 gem "database_cleaner", ">= 0.8.0", group: :test
 gem "launchy", ">= 2.1.0", group: :test
