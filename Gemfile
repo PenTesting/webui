@@ -1,17 +1,17 @@
 source 'https://rubygems.org'
-gem 'rails', '3.2.11'
+gem 'rails', '6.1.7.3'
 gem 'sqlite3'
 
 gem 'rdiscount'
 
 group :assets do
-    gem 'sass-rails',   '~> 3.2.3'
-    gem 'coffee-rails', '~> 3.2.1'
+    gem 'sass-rails', '~> 5.0.8'
+    gem 'coffee-rails', '~> 4.2.2'
     gem 'uglifier', '>= 1.0.3'
 end
 
 gem 'factory_girl', group: [:test]
-gem 'jquery-rails', '2.1.4'
+gem 'jquery-rails', '4.0.1'
 gem "thin"
 #gem "rspec-rails", ">= 2.11.0", group: [:development, :test]
 gem "capybara", ">= 1.1.2", group: :test
@@ -20,8 +20,8 @@ gem "database_cleaner", ">= 0.8.0", group: :test
 gem "launchy", ">= 2.1.0", group: :test
 gem "machinist", group: :test
 gem "bootstrap-sass", ">= 2.2.1.1"
-gem "simple_form"
-gem "devise", ">= 2.1.2"
+gem "simple_form", ">= 4.0.0"
+gem "devise", ">= 4.7.0"
 gem "cancan", ">= 1.6.8"
 gem "rolify", ">= 3.1.0"
 
@@ -30,7 +30,7 @@ gem "therubyracer", group: :assets, platform: :ruby
 
 gem "rails-settings-cached"
 
-gem 'rails-footnotes', '>= 3.7.5.rc4', group: :development
+gem 'rails-footnotes', '>= 3.7.7', group: :development
 gem 'kaminari'
 
 gem 'arachni-rpc-em', git: 'git://github.com/Arachni/arachni-rpc-em.git'
