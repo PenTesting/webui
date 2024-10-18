@@ -1,11 +1,11 @@
 source 'https://rubygems.org'
-gem 'rails', '3.2.11'
+gem 'rails', '6.1.7.9'
 gem 'sqlite3'
 
 gem 'rdiscount'
 
 group :assets do
-    gem 'sass-rails',   '~> 3.2.3'
+    gem 'sass-rails', '~> 6.0.0'
     gem 'coffee-rails', '~> 3.2.1'
     gem 'uglifier', '>= 1.0.3'
 end
@@ -28,10 +28,10 @@ gem "rolify", ">= 3.1.0"
 gem 'libv8', '~> 3.11.8'
 gem "therubyracer", group: :assets, platform: :ruby
 
-gem "rails-settings-cached"
+gem "rails-settings-cached", ">= 2.8.3"
 
 gem 'rails-footnotes', '>= 3.7.5.rc4', group: :development
-gem 'kaminari'
+gem 'kaminari', '>= 1.0.0'
 
 gem 'arachni-rpc-em', git: 'git://github.com/Arachni/arachni-rpc-em.git'
 
